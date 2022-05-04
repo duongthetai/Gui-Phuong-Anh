@@ -1,19 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
-    background-image: -webkit-gradient(
-        radial,
-        50% 50%,
-        0,
-        50% 50%,
-        100,
-        color-stop(0%, #374566),
-        color-stop(100%, #010203)
-    );
-    background-image: -webkit-radial-gradient(#374566, #010203);
-    background-image: -moz-radial-gradient(#374566, #010203);
-    background-image: -o-radial-gradient(#374566, #010203);
-    background-image: radial-gradient(#374566, #010203);
+    background-image: url(./main.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-family: 'Lobster', cursive;
 }
 span {
@@ -431,6 +421,9 @@ h1 {
     font-size: 20px;
     font-weight: 200;
     word-spacing: 5px;
+}
+.swal2-html-container {
+    font-size: 30px !important;
 }
 
 /* Hiệu ứng pháo hoa*/
