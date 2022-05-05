@@ -236,7 +236,7 @@ span {
 
 .avatar__title {
     cursor: pointer;
-    margin-top: -100px;
+    margin-top: -50px;
     -webkit-animation: balloon1 4s ease-in-out infinite;
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
@@ -410,7 +410,7 @@ h1 {
     position: relative;
     top: 200px;
     text-align: center;
-    color: white;
+    color: #9FE2BF;
     font-size: 3.5em;
 }
 .swal-overlay {
@@ -431,7 +431,7 @@ h1 {
 .swal2-cancel.swal2-styled.swal2-default-outline {
     font-size: 30px !important;
 }
-.swal2-cancel.swal2-styled {
+.swal2-confirm.swal2-styled {
     font-size: 30px !important;
 }
 
