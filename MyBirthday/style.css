@@ -409,9 +409,9 @@ span {
 h1 {
     position: relative;
     top: 200px;
-    left: -30px;
+    left: -80px;
     text-align: center;
-    color: #ffff4d;
+    color:  #e6e600;
     font-size: 5em;
 }
 .swal-overlay {
