@@ -80,9 +80,13 @@
             if (document.location.search.match(/type=embed/gi)) {
                 window.parent.postMessage("resize", "*");
             }
+	    var check=true;
             function showMessage() {
+		    if(check) {
 		    var nhac= new Audio('happy.mp3');
 		    nhac.play();
+	            check=false;
+		    }
                 // 6. Lời nhắn hiện ra khi bấm vào tên hoặc avatar
                   swal.fire({
       title: "^ Lời nhắn ^",
